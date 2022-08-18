@@ -13,7 +13,7 @@ export default function Navigator() {
   }
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-black">
       <Container>
         <div className="container flex flex-wrap justify-between items-center mx-auto pt-6 pb-6">
           <BrandName />
@@ -21,7 +21,7 @@ export default function Navigator() {
             <ToggleButton onClick={onToggleNav} />
           </div>
           <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium items-center">
+            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium items-center text-white">
               {/* <DarkModeSwitch /> */}
               {links.map((link) => (
                 <li key={link.href}>
