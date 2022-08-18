@@ -20,7 +20,7 @@ export default function Hero() {
               Experimentemos juntos la Presencia de Dios
             </p>
             <div>
-              <WhiteButton mr>Quiero asistir</WhiteButton>
+              <WhiteButton className='mr-2'>Quiero asistir</WhiteButton>
               <WhiteButton>Ver online</WhiteButton>
             </div>
           </div>
