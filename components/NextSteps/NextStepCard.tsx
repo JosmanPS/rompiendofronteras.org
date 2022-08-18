@@ -13,7 +13,7 @@ export default function NextStepCard({ title, image, description, href }: Props)
   return (
     <div className='text-left cursor-pointer hover:scale-110 transition mb-8'>
       <VerticalImage url={image} />
-      <h3 className='text-2xl font-bold tracking-tight mt-4'>{ title }</h3>
+      <h3 className='text-2xl font-bold tracking-tight mt-4 underline'>{ title }</h3>
       <Text>{ description }</Text>
     </div>
   )

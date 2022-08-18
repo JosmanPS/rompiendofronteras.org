@@ -45,13 +45,14 @@ export default function NextSteps() {
   ]
 
   return (
-    <section className="bg-white py-32 text-center">
+    <section className="bg-[#fef7f3] py-32 text-center">
       <Container>
         <SectionTitle className="mb-6">Sé parte.</SectionTitle>
         <Text className="mb-8">¿Qué deseas hacer hoy?</Text>
-        <div className="grid lg:grid-cols-3 lg:gap-8">
+        <div className="grid md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-8">
           {nextStepsData.map((step) => (
             <NextStepCard
+              key={step.title}
               title={step.title}
               image={step.image}
               description={step.description}

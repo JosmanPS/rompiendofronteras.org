@@ -32,7 +32,7 @@ export default function Navigator() {
           </div>
           {showMobileNav && (
             <div className="w-full md:hidden" id="mobile-menu">
-              <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+              <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium text-white">
                 {links.map((link) => (
                   <li>
                     <NavLink href={link.href}>
