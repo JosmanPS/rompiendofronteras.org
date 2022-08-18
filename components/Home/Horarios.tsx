@@ -6,7 +6,7 @@ import Text from '../Typography/Text'
 
 export default function Horarios() {
   return (
-    <section className="w-full py-32 bg-white text-center bg-[#b4bab6] text-[#4c5950]">
+    <section className="w-full py-32 text-center bg-[#b4bab6] text-[#4c5950]">
       <Container>
         <div className='mx-auto max-w-xl'>
           <SectionTitle className='mb-6'>Eres bienvenido.</SectionTitle>
